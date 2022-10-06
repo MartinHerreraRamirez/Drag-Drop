@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 
-
 *{
     box-sizing: border-box;
     margin: 0;
@@ -17,7 +16,7 @@ body{
 }
 
 .main-container{
-    border: 2px solid black;
+    /*border: 2px solid black;*/
     width:89%;
     margin:51px auto;
 }
@@ -27,12 +26,12 @@ h1,h2{
 }
 
 .drag-pokemon, .drop-pokemon{
-    border: 2px solid white;
+    /*border: 2px solid white;*/
     display:flex;
     min-height: 211px;
     justify-content: space-around;
     padding: 18px;
-    gap: 15px;
+    gap: 25px;
 }
 
 .name{
