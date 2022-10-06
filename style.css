@@ -19,16 +19,21 @@ body{
     /*border: 2px solid black;*/
     width:89%;
     margin:51px auto;
+    display: flex;
+    flex-direction: row;
 }
 
 h1,h2{
     text-align: center;
+    margin:30px;
 }
 
 .drag-pokemon, .drop-pokemon{
     /*border: 2px solid white;*/
     display:flex;
-    min-height: 211px;
+    flex-wrap: wrap ;
+    min-height: 40%;
+    min-width: 40%;
     justify-content: space-around;
     padding: 18px;
     gap: 25px;
@@ -41,8 +46,17 @@ h1,h2{
     height: 99px;
     display: grid;
     place-content: center;
+    margin: -3px;
 }
 
 .image{
-    width:121px;
+    width:100px;
+}
+
+.wrong, .win{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    display: grid;
+    place-content: center;
 }
